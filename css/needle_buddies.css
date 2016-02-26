@@ -1,0 +1,46 @@
+
+html, body {height:100%;}
+
+body {
+	background-image: url('../images/bg_02.jpg');
+	background-repeat: repeat-x;
+	margin-top: 0px;
+}
+ul#needle-buddies {
+    list-style-type: none;
+    padding:0;
+    margin:0 0 20px 0;
+}
+ul#needle-buddies li {
+    border:2px dashed #ccc;
+    display:inline-block;
+    vertical-align: middle;
+    height:166px;
+    width:129px;
+    padding:2px;
+    margin:2px 4px 4px 0;
+}
+.helper {
+    height:166px;
+    background-color: #000;
+    vertical-align: middle;
+    background-color: #000;
+    display:table-cell;
+    width: 129px;
+}
+
+ul#needle-buddies li:hover {
+    border:2px dashed #c06;
+}
+
+ul#needle-buddies li:nth-child(4n+5){
+    clear:left;
+    }
+
+ul#needle-buddies li img{
+    /*width:129px; */
+    display: block;
+    margin:0 auto;
+    position: relative;
+    vertical-align: middle;
+}
