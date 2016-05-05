@@ -24,6 +24,7 @@
 </script>
 <link href="styles.css" rel="stylesheet" type="text/css" />
 <link href="layout.css" rel="stylesheet" type="text/css" />
+<link href="css/aweber_form_overrides.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 body {
 	background-image: url(images/bg_02.jpg);
@@ -71,12 +72,13 @@ body {
     </ul>
     <div id="newsletter-signup">
       <h3>Stay In Touch with Us!</h3>
-        <form id="newsletter-signup-form" action="">
-          <span>Sign up for our newsletter</span>
+      <span>Sign up for our newsletter</span>
+        <!--<form id="newsletter-signup-form" action="">
+          
           <input type="email" placeholder="Your email"/>
           <input type="submit" value="Sign-up" />
         </form>
-        <!--
+        -->
     <div class="AW-Form-38510741"></div>
         <script type="text/javascript">(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
@@ -86,7 +88,7 @@ body {
             fjs.parentNode.insertBefore(js, fjs);
             }(document, "script", "aweber-wjs-45l4at10z"));
         </script>    
-        -->
+
 
     </div>
 
@@ -143,6 +145,24 @@ All needlepoint designs are property of The Meredith Collection.
       });
     });
   </script>
+<script>
+var placeholders = ['Email address', 'favourite color'];
+/*
+$('input:text').each(
+    function(i,el) {
+        if (!el.value || el.value == '') {
+            el.placeholder = placeholders[i];
+          }
+        }  
+      );​
+*/
+/*
+  (function($) {
+    $('#awf_field-82450750').attr('placeholder','Your name');
+    alert('loaded');
 
+  })(jQuery);
+*/
+</script>
 </body>
 </html>

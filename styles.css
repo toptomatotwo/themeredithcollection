@@ -1,3 +1,6 @@
+/* DARK PINK #C06 */
+
+
 @charset "UTF-8";
 #container {
 	margin-right: auto;
@@ -1856,6 +1859,51 @@ td.click-here a:hover{
 	text-decoration:underline;
 }
 
+#newsletter-signup, #facebook-link {
+	padding-left: 1em;
+}
+
+#newsletter-signup span{
+	color:#cdcdcd;
+	font-size:11px;
+	display: block;
+	margin:0;
+	line-height: 1.2;
+}
+#newsletter-signup h3{
+	color:#C06;
+	line-height:1.2;
+	margin:0 0 3px 0;
+	font-size: 1.25em;
+}
+#newsletter-signup-form input {
+	margin-bottom: 7px;
+	height:40px;
+	width:80%;
+	padding:5px 10px;
+	display:block;
+	width:90%;
+	box-sizing:border-box;
+}
+#newsletter-signup-form input[type="submit"] {
+	color:#fff;
+	background-color:#c06;
+	font-weight: 900;
+	clear:left;
+	font-size:1em;
+	padding:.5em 1em;
+	border:0;
+	border-radius: 5px;
+}
+#newsletter-signup-form input[type="submit"]:hover {
+	background-color: pink;
+}
+
+#facebook-link {
+	height:30px;
+	padding-top:25px;
+	padding-bottom:25px;
+}
 
 /* C L E A R   F I X */
 .group:after {
